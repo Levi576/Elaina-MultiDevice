@@ -9,9 +9,9 @@ let text = `
 ❏────
 `
 const templateButtons = [
-    {index: 1, urlButton: {displayText: '✨ Saweria', url: psaweria}},
-    {index: 2, urlButton: {displayText: '📷 Instagram', url: sig}},
-    {index: 3, urlButton: {displayText: '🌎 Official Group', url: sgc}},
+    {index: 1, urlButton: {displayText: '✨ 𝚃𝚒𝚔𝚝𝚘𝚔', url: psaweria}},
+    {index: 2, urlButton: {displayText: '📷 𝚈𝚘𝚞𝚃𝚞𝚋𝚎', url: sig}},
+    {index: 3, urlButton: {displayText: '🌎 𝙾𝚏𝚏𝚒𝚌𝚒𝚊𝚕 𝙶𝚛𝚘𝚞𝚙', url: sgc}},
     {index: 4, quickReplyButton: {displayText: 'Menu', id: '.menu'}},
     {index: 5, quickReplyButton: {displayText: 'Owner', id: '.owner'}},
 ]
