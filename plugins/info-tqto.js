@@ -55,7 +55,9 @@ https://github.com/Aiinne
 https://github.com/FahriAdison
 *▸ - - - —「 Penulis Ulang 」— - - - ◂*
 *❉ ImYanXiao:*
+*❉ 𝚕𝚎𝚟𝚒:*
 https://github.com/ImYanXiao
+https://github.com/Levi576
 *▸ - - - —「 Thanks For Suhu 」— - - - ◂*
 *❉ Kannachan:*
 *❉ The.sadboy01
@@ -66,9 +68,9 @@ https://github.com/ImYanXiao
 
 `
 conn.sendButtonDoc(m.chat, tqto, wm,'Thanks','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/Xiao_yan_21",
+    mediaUrl: "https://youtube.com/channel/UC2GOH5mCArh3E4J3sGFMC5g",
     mediaType: "VIDEO",
-    description: "https://Instagram.com/Xiao_yan_21", 
+    description: "https://youtube.com/channel/UC2GOH5mCArh3E4J3sGFMC5g", 
     title: 'Kanna-MultiDevice',
     body: wm,
     thumbnail: thumb,
