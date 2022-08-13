@@ -54,7 +54,7 @@ global.snh = 'https://nhentai.net/g/HaramTod🗿' //Hmmm, Ini boleh kalian isi t
 /*============== PAYMENT ==============*/
 global.pdana = '085172446692' //Nomor Danamu
 global.ppulsa = '085172446692' //Nomor SimCard Yang Kamu Pake
-global.psaweria = 'belum ada🙏' //Link Saweriamu Kalo Nggada Ketik - aja
+global.psaweria = 'https://www.tiktok.com/@leviatnansyah?_t=8UnaVTcn97p&_r=1' //Link Saweriamu Kalo Nggada Ketik - aja
 
 /*============== NOMOR ==============*/
 global.nomorbot = '6282131369002' //Nomor Bot
