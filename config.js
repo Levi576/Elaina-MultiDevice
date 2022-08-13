@@ -45,7 +45,7 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://belumadainstagram.com' //Link Instagrammu
+global.sig = 'https://youtube.com/channel/UC2GOH5mCArh3E4J3sGFMC5g' //Link Instagrammu
 global.sgh = 'https://github.com/Levi576' //Link Githubmu
 global.sgc = 'https://chat.whatsapp.com/JBrpYNLMqac4qMcc91quke'
 global.sdc = '-' //Isi Pake Link Discordmu Kalo Gada Biarin aja
