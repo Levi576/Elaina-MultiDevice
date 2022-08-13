@@ -1,5 +1,5 @@
 // MADE BY Kannachann
-// Ditulis Ulang Oleh ImYanXiao
+// Ditulis Ulang Oleh levi
 
 import { promises } from 'fs'
 import { join } from 'path'
@@ -221,7 +221,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	    {title: `⚡ ${pmenus} 𝚂𝙿𝙴𝙴𝙳 𝙱𝙾𝚃`, rowId: ".ping", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙺𝚎𝚌𝚎𝚙𝚊𝚝𝚊𝚗 𝚁𝚎𝚜𝚙𝚘𝚗 𝙱𝙾𝚃"},
 	    {title: `⏰ ${pmenus} 𝚁𝚄𝙽𝚃𝙸𝙼𝙴 𝙱𝙾𝚃`, rowId: ".runtime", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝚆𝚊𝚔𝚝𝚞 𝙱𝙾𝚃 𝙱𝚎𝚛𝚓𝚊𝚕𝚊𝚗"}, 
 	    {title: `💌 ${pmenus} 𝙾𝚆𝙽𝙴𝚁 𝙱𝙾𝚃`, rowId: ".owner", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙸𝚗𝚏𝚘𝚛𝚖𝚊𝚜𝚒 𝚃𝚎𝚗𝚝𝚊𝚗𝚐 𝙾𝚠𝚗𝚎𝚛"},
-	    {title: `📔 ${pmenus} 𝚂𝙲𝚁𝙸𝙿𝚃 𝙱𝙾𝚃`, rowId: ".sc", description: `𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 ${namebot}`},
+	    {title: `📔 ${pmenus} 𝚂𝙲𝚁𝙸𝙿𝚃 𝙱𝙾𝚃`, rowId: ".sc", description: "𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 𝚟𝚎𝚗𝚣-𝚋𝚘𝚝"},
 	]
     },{
 	title: `${htki} sᴜᴘᴘᴏʀᴛ ${htka}`,
@@ -286,7 +286,7 @@ ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 `
 const listMessage = {
   text: tek,
-  footer: '📮 *Ⓝⓞⓣⓔ:* ʙᴏᴛ ɪɴɪ ᴍᴀsɪʜ ᴅᴀʟᴀᴍ ᴘᴇɴɢᴇᴍʙᴀɴɢᴀɴ ᴊɪᴋᴀ ᴍᴇɴᴇᴍᴜᴋᴀɴ ʙᴜɢ/ᴇʀʀᴏʀ sɪʟᴀʜᴋᴀɴ ʟᴀᴘᴏʀᴋᴀɴ ᴋᴇᴘᴀᴅᴀ ᴏᴡɴᴇʀ😊',
+  footer: '📮 *Ⓝⓞⓣⓔ:* 𝙹𝙸𝙺𝙰 𝙼𝙴𝙽𝙴𝙼𝚄𝙺𝙰𝙽 𝙱𝚄𝙶/𝙴𝚁𝙾𝚁 𝙻𝙰𝙿𝙾𝚁𝙺𝙰𝙽 𝙺𝙴 𝙾𝚆𝙽𝙴𝚁😉',
   mentions: await conn.parseMention(tek),
   title: `${htki} *𝙻𝚒𝚜𝚝 𝙼𝚎𝚗𝚞* ${htka}`,
   buttonText: `кℓιк ᴅɪsɪɴɪ кαк ⎙`, 
@@ -543,7 +543,7 @@ handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
 handler.command = /^(menu|help|\?)$/i
 
-handler.register = false
+handler.register = true
 handler.exp = 3
 
 export default handler
