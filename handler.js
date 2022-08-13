@@ -693,11 +693,11 @@ export async function participantsUpdate({ id, participants, action }) {
                                 namegb: await this.getName(id),
                                 member: groupMetadata.participants.length
                             })
-    conn.sendButtonDoc(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'ImYanXiao', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://youtu.be/-TleC8rbDT8",
+    conn.sendButtonDoc(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'levi', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: "https://youtu.be/T2kS1gAbxhc",
     mediaType: 2, 
-    description: "https://youtu.be/-TleC8rbDT8", 
-    title: 'Elaina-MultiDevice',
+    description: "https://youtu.be/T2kS1gAbxhc", 
+    title: 'Venz-MultiDevice',
     body: wm,
     thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
     sourceUrl: sgc
